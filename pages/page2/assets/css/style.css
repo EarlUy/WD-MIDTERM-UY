@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li img.navbar-logo{
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-image: url('/WD-MIDTERM-UY/assets/img/BACKGROUND.png');
+    background-size: none;
+    background-position: none;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    padding: 10rem 1rem;
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+}
+
+header img.large-image {
+    width: 100%; /* Make the image take full width of its container */
+    max-width: 1200px; /* Set a maximum width for the large image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image horizontally and add space above and below */
+    display: block; /* Ensure the image is treated as a block element for proper centering */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  }
+  
+section {
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+
+.carousel {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+button.prev,button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+footer {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color: black;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.carousel-control-prev:hover,.carousel-control-next:hover {
+    background-color: rgba(255,255,255, 1);
+}
+
+h3 {
+color: burlywood; 
+font-size: 1.5rem;
+text-shadow: 1px 1px 2px rgba(255, 255, 255, 1); 
+text-align: center;
+margin: 1rem 0;
+}
+
+
