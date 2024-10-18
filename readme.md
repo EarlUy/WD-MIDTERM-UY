@@ -6,14 +6,39 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/LOGO.png" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-MIDTERM-UY</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ Project Overview
+ This project is my personal portfolio website "Earl Nathaniel Uy". It serves as a platform to showcase my skills, education, and film projects, allowing potential collaborators, employers, or clients to view my body of work and get in touch with me. The website includes sections for personal information, educational background, projects, and contact details.
+
+ Purpose
+ The main goal of the website is to provide the work of Earl as a film director to an online audience. It aims to:
+- Help present a general description of my background
+- Display images & descriptions for key film projects.
+- Make people that learn about my education, work, and ways to contact me, get it in an easy to navigate interface.
+- It can be used as a visual resume, easily shared online.
+
+What are the key components?
+The key components of this website are:
+Navbar: A navigation bar where you save 4 sections like "About Me", "Education", "Projects" and "Contact."
+Profile Section: Asigned a header area containing Earl's name, profile picture, a large background image and optional slogan or tagline ("SEXICHIKEN").
+About Section: It gives information about Earl's personal background, as well as his profession in the film director area.
+Education Section: A collection of images and descriptions of schools attended and educational milestones.
+Projects Section: Earl’s film projects are listed with an image and brief description.
+Contact Section: It contains Earl’s contact details, so visitors can contact him.
+
+How is the technology used and what technology is used?
+The website is built using the following technologies:
+HTML: It was used to structure the website’s content (with the various sections like About Me, Education, Projects and Contact), images, and navigation links.
+CSS: It is used to style the website to produce visually appealing and responsive layout. It determines positioning, sizing (especially images, the large header background) along with fonts, colors and margins such that the site appears polished and modern.
+JavaScript: Also used for interactive sections such as, the image carousel on the Education page which allows a user to see the different images of Earl’s history in Education.
+Responsive Design: CSS media queries makes the website mobile friendly with smooth user experience on all devices.
+External Assets (Images): Earl’s work and journey are visually represented using various images, the profile picture, project images, and educational photos.
 </div>
 
 <br />
@@ -117,4 +142,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Stardew Valley | This is my overall layout for my web | https://www.stardewvalley.net/ |
