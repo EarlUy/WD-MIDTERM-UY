@@ -196,4 +196,14 @@ text-align: center;
 margin: 1rem 0;
 }
 
-
+.project img {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Set a maximum width to prevent overlapping */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for a better look */
+    margin: 20px auto; /* Add margin to separate the image from the text */
+    display: block; /* Ensure the image is centered */
+  }
+  
